@@ -1,0 +1,4 @@
+curl -v localhost:8080/friends
+curl -v localhost:8080/name
+curl -v localhost:8080/birthday
+curl -v -X POST --data "4" localhost:8080/friends
